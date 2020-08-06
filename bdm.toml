@@ -1,0 +1,12 @@
+run_mechanical_interactions = true
+leaking_edges = true
+calculate_gradients = true
+
+[visualization]
+export = true
+live = false
+export_interval = 16
+
+    [[visualize_sim_object]]
+    name = "MyCell"
+    additional_data_members = [ "type_" ]
